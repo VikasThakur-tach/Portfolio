@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing my projects, skills, and resume.
 
-**Live Demo:** [Add your Vercel link here]
+**Live Demo:** [https://portfolio-vikasthakur-tach.vercel.app/]
 
 ## About
 
