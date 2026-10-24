@@ -248,7 +248,7 @@ function App() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/vikas-thakur-70225a"
+                 href="https://www.linkedin.com/in/vikas-thakur-70225a411"
                 
                 rel="noopener noreferrer"
               >
@@ -604,7 +604,7 @@ function App() {
               </a>
             </div>
 
-            <a className="resume-link" href="/Vikas_Resume.pdf" download>
+            <a className="resume-link" href="/Vikas_Thakur_Resume.pdf" download>
               <span>📄</span>
               <span>
                 <strong>Download Resume</strong>
