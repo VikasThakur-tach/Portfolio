@@ -140,6 +140,12 @@ const projects = [
   }
 ];
 
+const EMAIL = "vt7087369@gmail.com";
+const isMobile = /Android|iPhone|iPad/i.test(navigator.userAgent);
+const emailLink = isMobile
+  ? `mailto:${EMAIL}?subject=Portfolio%20Contact`
+  : `https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}`;
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [lightMode, setLightMode] = useState(false);
@@ -578,7 +584,7 @@ function App() {
             <div className="contact-buttons">
               <a
                 className="button button-primary"
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=vt7087369@gmail.com"
+                href= {emailLink}
                 
                 rel="noopener noreferrer"
               >
